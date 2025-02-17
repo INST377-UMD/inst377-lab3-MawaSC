@@ -1,0 +1,83 @@
+body {
+    background-color: #edcda4;
+  }
+  
+  #bar {
+    text-align: center;
+    color: white;
+    background-color: #7c7c7c;
+    padding: 5px;
+    clear: both;
+  }
+  
+  #main-nav {
+    background-color: rgb(85, 152, 241);
+    padding: 0;
+  }
+  
+  #main-nav li:hover {
+    background-color: #762525;
+    color: white;
+  }
+  
+  #main-nav ul ul {
+    display: none;
+    position: absolute;
+  }
+  
+  #main-nav ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .content-area {
+    width: 73%;
+    float: left;
+    margin: 0;
+  }
+  
+  .content-box {
+    background-color: rgb(63, 209, 143);
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+  }
+  
+  input[type="text"],
+  input[type="choice"],
+  input[type="submit"] {
+    border-radius: 5px;
+  }
+
+  input[type="text"]:focus {
+    width: 350px;
+  }
+
+  a.no-underline {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #rules {
+    background-color: rgb(65, 194, 223);
+    float: right;
+    width: 25%;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 5px;
+  }
+
+  #rules:hover {
+    background-color:#ae276a
+  }
+
+  #submitButton {
+    background-color: rgb(187, 187, 187);
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+  }
